@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+header {
+  text-align: center;
+  padding: 5% 10%;
+  font-size: 3vw;
+  border-bottom: 1px solid rgb(155, 155, 155);
+}
+main h2 {
+  padding: 2% 0%;
+  margin: 0;
+}
+.body {
+  height: auto;
+  margin: 2%;
+}
+article {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+article .article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+article h3 {
+  font-size: 1.2vw;
+}
+article option {
+  width: auto;
+  height: 50%;
+  outline: none ;
+}
+.result {
+  margin-top: 10px;
+  border-top: 1px solid rgb(155, 155, 155);
+}
+.result-body {
+  height: auto;
+  margin: 2%;
+}
+.result-body table {
+  width: 100%;
+}
+table,th,td{
+  padding: 5px;
+  text-align: center;
+  border: 1px solid rgb(155, 155, 155);
+}
